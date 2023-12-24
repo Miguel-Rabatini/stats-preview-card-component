@@ -1,0 +1,25 @@
+@use "../../index.scss";
+
+.statistic-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 43px;
+
+  @media only screen and (max-width: 540px) {
+    text-align: center;
+  }
+
+  .statistic-display_statistic {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color: index.$white;
+  }
+
+  .statistic-display_statistic-name {
+    font-size: 12px;
+    font-family: "Lexend Deca", sans-serif;
+    color: hsla(0, 0%, 100%, 0.6);
+  }
+}
