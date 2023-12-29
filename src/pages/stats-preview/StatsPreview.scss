@@ -54,7 +54,7 @@
         flex-direction: column;
         justify-content: space-between;
         width: 420px;
-        height: 306px;
+        height: 310px;
 
         @media only screen and (max-width: 540px) {
           align-items: center;
@@ -79,7 +79,7 @@
 
           .promotional-text-section_heading {
             width: fit-content;
-            font-size: 37px;
+            font-size: 36px;
             font-family: "Inter", sans-serif;
             color: index.$white;
 
