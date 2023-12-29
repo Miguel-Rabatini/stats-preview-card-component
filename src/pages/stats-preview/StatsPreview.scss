@@ -8,11 +8,12 @@
   background-color: hsl(233, 47%, 7%);
 
   @media only screen and (max-width: 1110px) {
-    min-height: 1000px;
+    min-height: 922px;
   }
 
   @media only screen and (max-width: 540px) {
-    min-height: 956px;
+    min-width: 340px;
+    min-height: 760px;
   }
 
   .main-container_stats-preview-card {
