@@ -30,7 +30,7 @@ const StatsPreview = () => {
 
   return (
     <main className="main-container">
-      <div className="main-container_stats-preview-card">
+      <article className="main-container_stats-preview-card">
         <section className="stats-preview-card_stats-preview-section">
           <div className="stats-preview-section_stats-preview-box">
             <section className="stats-preview-box_promotional-text-section">
@@ -62,7 +62,7 @@ const StatsPreview = () => {
             className="header-image-background_header-image"
           />
         </div>
-      </div>
+      </article>
     </main>
   );
 };
